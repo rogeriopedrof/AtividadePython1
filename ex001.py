@@ -1,5 +1,4 @@
-recebalista = input("Digite uma lista de elementos separados por vírgula: ")
-listareal = recebalista.split(",") #faz a separação da string em uma lista, nesse caso, separando por vírgula
+listademerda = [987654321,2,7654321,56,1234567, 1, 88888,3,42,999999,5,1000000000,13,101010,7,444, 9, 2, 13, 9]
 
-for i in range(len(listareal)):
-    print(listareal[i])
+for i in range(len(listademerda)):
+    print(listademerda[i])
